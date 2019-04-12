@@ -145,16 +145,21 @@ li a {
 }
 
 @media (max-width: 991px) {
+    ul {
+        justify-content: center !important;
+        float: initial;
+    }
     .ul-links {
         margin-top: 2%;
         margin-bottom: 2%;
     }
+    .ul-favs {
+        display: flex;
+    }
     li a {
         padding: 8px 6px;
         margin: 4px 2px;
-    }
-    ul {
-        justify-content: center !important;
+        font-size: 14px;
     }
 }
 
@@ -178,5 +183,21 @@ li a {
     }
     .div_imag {
         padding: 0px;
+    }
+}
+
+@media (max-width: 520px) {
+    .ul-links {
+        display: block;
+    }
+    .ul-links li {
+        width: 100%;
+    }
+    .links-head li a {
+        text-align: left;
+        border-bottom: 1px solid #6c6e70;
+    }
+    .ul-favs {
+        display: block;
     }
 }

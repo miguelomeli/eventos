@@ -1,0 +1,23 @@
+.img_muestra {
+    width: 86%;
+}
+
+.img_logo {
+    width: 84%;
+}
+
+p {
+    text-align: justify;
+}
+
+.pad-txtlogo {
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.centrado_vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,104 @@
+/* Inicia sección para cargar las fuentes que se utilisaran */
+
+@import url('//fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: century-gothic;
+    src: url('/assets/fonts/century-gothic.ttf');
+}
+
+@font-face {
+    font-family: century-gothic-bold;
+    src: url('/assets/fonts/century-gothic-bold.ttf');
+}
+
+@font-face {
+    font-family: centurygothicstd;
+    src: url('/assets/fonts/centurygothicstd.ttf');
+}
+
+.century-gothic {
+    font-family: century-gothic;
+}
+
+.century-gothic-bold {
+    font-family: century-gothic-bold;
+}
+
+.centurygothicstd {
+    font-family: centurygothicstd;
+}
+
+
+/* Finzaliza sección para cargar las fuentes que se utilisaran */
+
+.bg_paquetes {
+    background: rgba(0, 0, 0, 0) url(/src/assets/img/bg/background_paquetes.jpg) repeat scroll center center / cover!important;
+}
+
+.bg_blanco {
+    background: white;
+}
+
+.bg_inf_radius {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.container-fluid {
+    width: 90%;
+}
+
+ul {
+    display: grid;
+    list-style-type: disc;
+    padding: 0px 20px;
+}
+
+.titulo_paquete {
+    text-align: center;
+    background: #3a90cd;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: century-gothic;
+}
+
+h1 {
+    font-size: 1.6rem;
+    margin-bottom: .8rem;
+    margin-top: .8rem;
+    color: white;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: .6rem;
+    margin-top: .6rem;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0rem;
+}
+
+h5 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: 400;
+}

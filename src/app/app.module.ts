@@ -46,6 +46,11 @@ import { ApiService } from './services/api.service';
 import { AuthService } from './services/auth.service';
 import { TokenInterceptorService } from './services/token-interceptor.service';
 import { SliderComponent } from './web/home/components/slider/slider.component';
+import { Slider1Component } from './web/home/components/slider/sliders/slider1/slider1.component';
+import { Slider2Component } from './web/home/components/slider/sliders/slider2/slider2.component';
+import { Slider3Component } from './web/home/components/slider/sliders/slider3/slider3.component';
+import { QuienessomosComponent } from './web/home/components/quienessomos/quienessomos.component';
+import { PaquetesComponent } from './web/home/components/paquetes/paquetes.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -60,6 +65,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     WebFooterComponent,
     WebHomeComponent,
     SliderComponent,
+    Slider1Component,
+    Slider2Component,
+    Slider3Component,
+    QuienessomosComponent,
+    PaquetesComponent,
   ],
   imports: [
     BrowserModule,
