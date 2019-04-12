@@ -1,0 +1,346 @@
+<header id="head-simple">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+            <a class="navbar-brand" routerLink='/home'>
+                <img class="img-web animated id-heasim-img-1 style-heasim-img-1 ocultar" src="/assets/img/home/logo_beba_head.png" alt="logo">
+            </a>
+        </div>
+
+        <div class="d-none d-lg-block col-lg-7 col-xl-8 text-center">
+            <ul class="ul-links">
+                <li class="animated id-heasim-li-1 style-heasim-li-1">
+                    <a routerLink='/deportes'>
+                        DEPORTES
+                    </a>
+                </li>
+
+                <li class="animated id-heasim-li-2 style-heasim-li-2">
+                    <a routerLink='/caballos'>
+                        CABALLOS
+                    </a>
+                </li>
+
+                <li class="animated id-heasim-li-2 style-heasim-li-2">
+                    <a routerLink='/envivo'>
+                        EN VIVO
+                    </a>
+                </li>
+
+                <li class="animated id-heasim-li-2 style-heasim-li-2">
+                    <a href='javascript:void(0)'>
+                        CASINO
+                    </a>
+                </li>
+
+                <li class="animated id-heasim-li-3 style-heasim-li-3">
+                    <a href='javascript:void(0)'>
+                        FANTASY
+                    </a>
+                </li>
+
+                <li class="animated id-heasim-li-4 style-heasim-li-4">
+                    <a routerLink='/promociones'>
+                        PROMOCIONES
+                    </a>
+                </li>
+
+                <li class="animated id-heasim-li-5 style-heasim-li-5">
+                    <a routerLink='/banca'>
+                        BANCA
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="d-none d-md-block col-md-7 col-lg-3 col-xl-2">
+            <div class="row">
+                <!-- <div class="col-md-5 col-lg-5 col-xl-6 text-left">
+                    <div class="input-group mb-0">
+                        <div class="input-group-append">
+                            <button class="btn btn-busc" type="button"><i class="fa fa-search"></i></button>
+                        </div>
+
+                        <input class="form-control" type="text" placeholder="Buscar">
+                    </div>
+                </div>
+
+                <div class="col-md-7 col-lg-7 col-xl-6 text-right"> -->
+                <a href="javascript:void(0);" (click)="openVerticallyCentered(ingresar)" class="btn btn-ingresar animated id-heasim-a-1 style-heasim-a-1 ocultar">
+                    INGRESAR
+                </a>
+
+                <a routerLink='/registro' class="btn btn-registrate animated id-heasim-a-2 style-heasim-a-2 ocultar">
+                    REGISTRATE
+                </a>
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-md-block d-lg-none">
+                <ul class="ul-links links-head">
+                    <li class="animated id-heasim-li-1 style-heasim-li-1">
+                        <a routerLink='/deportes'>
+                            DEPORTES
+                        </a>
+                    </li>
+
+                    <li class="animated id-heasim-li-2 style-heasim-li-2">
+                        <a routerLink='/caballos'>
+                            CABALLOS
+                        </a>
+                    </li>
+
+                    <li class="animated id-heasim-li-2 style-heasim-li-2">
+                        <a routerLink='/envivo'>
+                            EN VIVO
+                        </a>
+                    </li>
+
+                    <li class="animated id-heasim-li-2 style-heasim-li-2">
+                        <a href='javascript:void(0)'>
+                            CASINO
+                        </a>
+                    </li>
+
+                    <li class="animated id-heasim-li-3 style-heasim-li-3">
+                        <a href='javascript:void(0)'>
+                            FANTASY
+                        </a>
+                    </li>
+
+                    <li class="animated id-heasim-li-4 style-heasim-li-4">
+                        <a routerLink='/promociones'>
+                            PROMOCIONES
+                        </a>
+                    </li>
+
+                    <li class="animated id-heasim-li-5 style-heasim-li-5">
+                        <a routerLink='/banca'>
+                            BANCA
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="d-sm-block d-md-none">
+                <div class="row">
+                    <div class="col-12 col-sm-6 text-left">
+                        <!-- <div class="input-group mb-0">
+                            <div class="input-group-append">
+                                <button class="btn btn-busc" type="button"><i class="fa fa-search"></i></button>
+                            </div>
+
+                            <input class="form-control" type="text" placeholder="Buscar">
+                        </div> -->
+                    </div>
+
+                    <div class="col-12 col-sm-6 alineacion-texto">
+                        <a href="javascript:void(0);" (click)="openVerticallyCentered(ingresar)" class="btn btn-ingresar animated id-heasim-a-1 style-heasim-a-1 ocultar">
+                            INGRESAR
+                        </a>
+
+                        <a routerLink='/registro' class="btn btn-registrate animated id-heasim-a-2 style-heasim-a-2 ocultar">
+                            REGISTRATE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<ng-template #ingresar let-c="close">
+    <div class="animated anim-temlate-01 zoomIn">
+        <div class="modal-header">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="row">
+                    <div class="col-4 col-sm-offset-4 col-md-4 col-lg-4 col-xl-4 centrado-vertical">
+                        <h4 class="modal-title">CREAR CUENTA</h4>
+                    </div>
+
+                    <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 text-right">
+                        <button type="button" class="btn btn-registro">
+                            <span aria-hidden="true">Registro Beba Premia</span>
+                        </button>
+
+                        <button type="button" class="close" aria-label="Close" (click)="c('Cross click')">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
+            <img class="img-promociones" src="src/assets/img/publicidad/banner_bono_inicio_registro.png" alt="futbol_americano">
+        </div>
+
+        <div class="modal-body color-form">
+            <form class="m-t-30 ng-untouched ng-pristine ng-valid" enctype="multipart/form-data" novalidate="">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="row">
+                        <hr id="lin_3_pasos" class="linea-3-pasos">
+
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" align="center">
+                            <div class="circulo-metodo-pago-1" id="circulo_1" style="z-index: 1;">
+                                <div class="texto-circulo-pago-1" id="texto_1">
+                                    <span>1</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" align="center">
+                            <div class="circulo-metodo-pago-2 circulo-metodo-pago-inactivo" id="circulo_2" style="z-index: 1;">
+                                <div class="texto-circulo-pago-2 texto-circulo-pago-inactivo" id="texto_2">
+                                    <span>2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="how-work-left">
+                        <div class="how-work-tab">
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade in active" id="pago_seccion_1">
+                                    <div class="form-group">
+                                        <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Nombre">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-md-6 col-6 pr-2">
+                                                <input id="apellido_pat" name="apellido_pat" type="text" class="form-control" placeholder="Apellido Paterno">
+                                            </div>
+
+                                            <div class="col-md-6 col-6 pl-2">
+                                                <input id="apellido_mat" name="apellido_mat" type="text" class="form-control" placeholder="Apellido Materno">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group text-center">
+                                        <label class="margen-label">FECHA DE NACIMIENTO</label>
+
+                                        <input class="form-control" type="date">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-md-2 col-3 pr-2">
+                                                <input type="text" class="form-control" readonly placeholder="+52">
+                                            </div>
+
+                                            <div class="col-md-10 col-9 pl-2">
+                                                <input id="celular" name="celular" type="text" class="form-control" placeholder="Celular (Verificación necesaria)">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input id="email" name="email" type="text" class="form-control" placeholder="Correo electrónico">
+                                    </div>
+
+                                    <div class="form-group text-center">
+                                        <button type="button" class="btn btn-siguiente" (click)="a_paso_2();">
+                                            Siguiente
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane fade" id="pago_seccion_2">
+                                    <div class="form-group">
+                                        <input id="usuario" name="usuario" type="text" class="form-control" placeholder="Usuario">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input id="password" name="password" type="password" class="form-control" placeholder="Contraseña">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input id="re_password" name="re_password" type="password" class="form-control" placeholder="Confirmar contraseña">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input id="cod_promocional" name="cod_promocional" type="text" class="form-control" placeholder="Codigo promocional (opcional)">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <p>
+                                            <input type="checkbox" id="exampleCheck1"> Acepto los terminos y coniciones y la politica de privacidad de beba apuestas. Manifiesto ser el diueño beneficiario de lso recursos con los ciuales realizo operaciones
+                                            con la compañia. Al pulsar registro también acepto recibir promociones de ofertas, promociones y apuestas gratis. ( Para no reicibir nungun tipo de comunicación escribe un email a apuestas@beba.io
+                                        </p>
+                                    </div>
+
+                                    <div class="form-group text-center">
+                                        <button type="button" class="btn btn-anterior" (click)="a_paso_1();">
+                                            Anterior
+                                        </button>
+
+                                        <button type="button" class="btn btn-guardar">
+                                            Guardar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-light">¿Necesitas Ayuda?</button>
+
+            <button type="button" class="btn btn-danger" (click)="c('Close click')">Close</button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #registrate let-c="close">
+    <div class="animated anim-temlate-01 zoomIn">
+        <div class="modal-header">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="row">
+                    <div class="col-4 col-sm-offset-4 col-md-4 col-lg-4 col-xl-4 centrado-vertical">
+                        <h4 class="modal-title">Iniciar seción</h4>
+                    </div>
+
+                    <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 text-right">
+                        <button type="button" class="close" aria-label="Close" (click)="c('Cross click')">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
+            <img class="img-promociones" src="src/assets/img/publicidad/banner_bono_inicio_registro.png" alt="futbol_americano">
+        </div>
+
+        <div class="modal-body color-form">
+            <form class="m-t-30 ng-untouched ng-pristine ng-valid" enctype="multipart/form-data" novalidate="">
+                <div class="form-group">
+                    <input id="usuario" name="usuario" type="text" class="form-control" placeholder="Usuario">
+                </div>
+
+                <div class="form-group">
+                    <input id="password" name="password" type="password" class="form-control" placeholder="Contraseña">
+                </div>
+            </form>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-light">¿Necesitas Ayuda?</button>
+
+            <button type="button" class="btn btn-danger" (click)="c('Close click')">Close</button>
+        </div>
+    </div>
+</ng-template>

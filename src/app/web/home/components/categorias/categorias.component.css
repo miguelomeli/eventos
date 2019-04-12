@@ -1,0 +1,110 @@
+.ocultar {
+    opacity: 0;
+}
+
+.style-pagcob-h1-1 {
+    animation-duration: 1.2s;
+    animation-delay: 0.8s;
+}
+
+.style-pagcob-h1-2 {
+    animation-duration: 1.2s;
+    animation-delay: 0.6s;
+}
+
+.style-pagcob-h1-3 {
+    animation-duration: 1.2s;
+    animation-delay: 0.4s;
+}
+
+.style-pagcob-h1-4 {
+    animation-duration: 1.2s;
+    animation-delay: 0.2s;
+}
+
+.style-pagcob-li-1 {
+    animation-duration: 1.2s;
+    animation-delay: 0.7s;
+}
+
+.style-pagcob-li-2 {
+    animation-duration: 1.2s;
+    animation-delay: 0.5s;
+}
+
+.style-pagcob-li-3 {
+    animation-duration: 1.2s;
+    animation-delay: 0.3s;
+}
+
+.style-pagcob-li-4 {
+    animation-duration: 1.2s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    justify-content: center;
+    margin-top: -1rem;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #f05d6c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    width: 160px;
+}
+
+.pad-pag {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: #313e48;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+    img {
+        width: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    li a {
+        padding: 14px 8px;
+    }
+    img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 0.7rem;
+    }
+    li a {
+        padding: 14px 2px;
+    }
+    img {
+        width: 50px;
+    }
+}

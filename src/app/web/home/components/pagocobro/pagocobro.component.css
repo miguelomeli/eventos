@@ -1,0 +1,138 @@
+/* Inicia sección para cargar las fuentes que se utilisaran */
+
+@import url('//fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: ubuntu-r;
+    src: url('/assets/fonts/ubuntu-r.ttf');
+}
+
+@font-face {
+    font-family: ubuntu-bold;
+    src: url('/assets/fonts/ubuntu-bold.ttf');
+}
+
+@font-face {
+    font-family: bebas-neue-regular;
+    src: url('/assets/fonts/bebas-neue-regular.ttf');
+}
+
+.ubuntu-r {
+    font-family: ubuntu-r;
+}
+
+.ubuntu-bold {
+    font-family: ubuntu-bold;
+}
+
+.bebas-neue-regular {
+    font-family: bebas-neue-regular;
+}
+
+
+/* Finzaliza sección para cargar las fuentes que se utilisaran */
+
+.ocultar {
+    opacity: 0;
+}
+
+.style-pagcob-h1-1 {
+    animation-duration: 1s;
+}
+
+.style-pagcob-li-1 {
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+}
+
+.style-pagcob-li-2 {
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+}
+
+.style-pagcob-li-3 {
+    animation-duration: 1s;
+}
+
+.style-pagcob-li-4 {
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+}
+
+.style-pagcob-li-5 {
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #f05d6c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    width: 140px;
+}
+
+.pad-pag {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+h1 {
+    font-size: 1.6rem;
+    color: #313e48;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+    img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    li a {
+        padding: 14px 8px;
+    }
+    img {
+        width: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1rem;
+    }
+    li a {
+        padding: 14px 2px;
+    }
+    img {
+        width: 48px;
+    }
+}
