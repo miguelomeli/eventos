@@ -1,4 +1,5 @@
-// Inicia sección para cargar las fuentes que se utilisaran
+/* Inicia sección para cargar las fuentes que se utilisaran */
+
 @import url('//fonts.googleapis.com/css?family=Roboto');
 @font-face {
     font-family: ubuntu-r;
@@ -27,7 +28,9 @@
     font-family: bebas-neue-regular;
 }
 
-// Finzaliza sección para cargar las fuentes que se utilisaran
+
+/* Finzaliza sección para cargar las fuentes que se utilisaran */
+
 .ocultar {
     opacity: 0;
 }
