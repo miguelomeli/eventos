@@ -44,35 +44,35 @@
 }
 
 .col-xl-15 {
-    width: 20%;
-    float: left;
+    flex: 20%;
+    max-width: 20%;
 }
 
-@media (min-width: 1199px) {
+@media (max-width: 1199px) {
     .col-lg-15 {
-        width: 20%;
-        float: left;
+        flex: 20%;
+        max-width: 20%;
     }
 }
 
-@media (min-width: 991px) {
+@media (max-width: 991px) {
     .col-md-15 {
-        width: 20%;
-        float: left;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
     }
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
     .col-sm-15 {
-        width: 20%;
-        float: left;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
     }
 }
 
-@media (min-width: 575px) {
+@media (max-width: 575px) {
     .col-15 {
-        width: 20%;
-        float: left;
+        flex: 50%;
+        max-width: 50%;
     }
 }
 

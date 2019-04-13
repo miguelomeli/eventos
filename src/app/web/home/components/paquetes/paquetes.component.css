@@ -213,6 +213,9 @@ h5 {
     ul li {
         font-size: 0.9rem;
     }
+    .titulo_paquete {
+        margin-top: 15px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -231,9 +234,6 @@ h5 {
     }
     ul li {
         font-size: 1.1rem;
-    }
-    .titulo_paquete {
-        margin-top: 15px;
     }
 }
 

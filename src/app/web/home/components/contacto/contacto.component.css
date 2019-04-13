@@ -1,0 +1,115 @@
+/* Inicia sección para cargar las fuentes que se utilisaran */
+
+@import url('//fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: century-gothic;
+    src: url('/assets/fonts/century-gothic.ttf');
+}
+
+@font-face {
+    font-family: century-gothic-bold;
+    src: url('/assets/fonts/century-gothic-bold.ttf');
+}
+
+@font-face {
+    font-family: centurygothicstd;
+    src: url('/assets/fonts/centurygothicstd.ttf');
+}
+
+.century-gothic {
+    font-family: century-gothic;
+}
+
+.century-gothic-bold {
+    font-family: century-gothic-bold;
+}
+
+.centurygothicstd {
+    font-family: centurygothicstd;
+}
+
+
+/* Finzaliza sección para cargar las fuentes que se utilisaran */
+
+.bg_contacto {
+    background: rgba(0, 0, 0, 0) url(/src/assets/img/contacto/background_contacto.jpg) repeat scroll center center / cover!important;
+}
+
+h1 {
+    padding-bottom: 5rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+}
+
+.btn_enviar {
+    background: rgba(60, 163, 219, 1);
+    background: -moz-linear-gradient(left, rgba(60, 163, 219, 1) 0%, rgba(60, 98, 175, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(60, 163, 219, 1)), color-stop(100%, rgba(60, 98, 175, 1)));
+    background: -webkit-linear-gradient(left, rgba(60, 163, 219, 1) 0%, rgba(60, 98, 175, 1) 100%);
+    background: -o-linear-gradient(left, rgba(60, 163, 219, 1) 0%, rgba(60, 98, 175, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(60, 163, 219, 1) 0%, rgba(60, 98, 175, 1) 100%);
+    background: linear-gradient(to right, rgba(60, 163, 219, 1) 0%, rgba(60, 98, 175, 1) 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-transform: initial;
+    border-radius: 10px;
+    padding: 5px 40px;
+    letter-spacing: 1px;
+    border: solid 2px #1A3868;
+    font-family: century-gothic;
+}
+
+.btn_enviar:hover {
+    background: rgba(60, 98, 175, 1);
+    background: -moz-linear-gradient(left, rgba(60, 98, 175, 1) 0%, rgba(60, 163, 219, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(60, 98, 175, 1)), color-stop(100%, rgba(60, 163, 219, 1)));
+    background: -webkit-linear-gradient(left, rgba(60, 98, 175, 1) 0%, rgba(60, 163, 219, 1) 100%);
+    background: -o-linear-gradient(left, rgba(60, 98, 175, 1) 0%, rgba(60, 163, 219, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(60, 98, 175, 1) 0%, rgba(60, 163, 219, 1) 100%);
+    background: linear-gradient(to right, rgba(60, 98, 175, 1) 0%, rgba(60, 163, 219, 1) 100%);
+    border: solid 2px #0e56c2;
+}
+
+@media (max-width: 1199px) {
+    h1 {
+        padding-bottom: 4rem;
+    }
+    .btn_enviar {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 991px) {
+    h1 {
+        padding-bottom: 3rem;
+    }
+    .btn_enviar {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        padding-bottom: 2rem;
+    }
+    .btn_enviar {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        padding-bottom: 1rem;
+    }
+    .btn_enviar {
+        font-size: 1rem;
+    }
+}
