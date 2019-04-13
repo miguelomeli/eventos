@@ -51,6 +51,7 @@ import { Slider2Component } from './web/home/components/slider/sliders/slider2/s
 import { Slider3Component } from './web/home/components/slider/sliders/slider3/slider3.component';
 import { QuienessomosComponent } from './web/home/components/quienessomos/quienessomos.component';
 import { PaquetesComponent } from './web/home/components/paquetes/paquetes.component';
+import { AreasComponent } from './web/home/components/areas/areas.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -70,6 +71,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     Slider3Component,
     QuienessomosComponent,
     PaquetesComponent,
+    AreasComponent,
   ],
   imports: [
     BrowserModule,

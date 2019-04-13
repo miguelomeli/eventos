@@ -1,0 +1,119 @@
+/* Inicia sección para cargar las fuentes que se utilisaran */
+
+@import url('//fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: century-gothic;
+    src: url('/assets/fonts/century-gothic.ttf');
+}
+
+@font-face {
+    font-family: century-gothic-bold;
+    src: url('/assets/fonts/century-gothic-bold.ttf');
+}
+
+@font-face {
+    font-family: centurygothicstd;
+    src: url('/assets/fonts/centurygothicstd.ttf');
+}
+
+.century-gothic {
+    font-family: century-gothic;
+}
+
+.century-gothic-bold {
+    font-family: century-gothic-bold;
+}
+
+.centurygothicstd {
+    font-family: centurygothicstd;
+}
+
+
+/* Finzaliza sección para cargar las fuentes que se utilisaran */
+
+
+/* Inicializa seccion de codigo para la existencia de 5 columnas */
+
+.col-xl-15,
+.col-lg-15,
+.col-md-15,
+.col-sm-15,
+.col-15 {
+    position: relative;
+    min-height: 1px;
+}
+
+.col-xl-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 1199px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 991px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 767px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 575px) {
+    .col-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+/* Finaliza seccion de codigo para la existencia de 5 columnas */
+
+.container-fluid {
+    width: 90%;
+}
+
+h1,
+h2 {
+    font-family: century-gothic;
+}
+
+h1 {
+    padding-bottom: 0.4rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #085588;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+
+.img_icon {
+    width: 34%;
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+}
+
+@media (max-width: 575px) {
+    .img_icon {
+        width: 50%;
+    }
+    h2 {
+        font-size: 0.8rem;
+    }
+}
