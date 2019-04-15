@@ -35,6 +35,132 @@
     background: rgba(0, 0, 0, 0) url(/src/assets/img/footer/background_footer.jpg) repeat scroll center center / cover!important;
 }
 
+.centrado-vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img_footer {
     width: 100%;
+}
+
+.ul-links {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: century-gothic;
+    text-align: left;
+}
+
+.ul-favs {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    display: flex;
+}
+
+.ul-footer-favs ul {
+    float: initial;
+    justify-content: center;
+}
+
+.ul-favs li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+@media (max-width: 1199px) {
+    .ul-links {
+        margin-top: 1.8%;
+    }
+    li a {
+        font-size: 12px;
+    }
+    .ul-favs li a,
+    .ul-links li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    ul {
+        justify-content: center !important;
+        float: initial;
+    }
+    .ul-links {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    li a {
+        padding: 8px 6px;
+        margin: 4px 2px;
+        font-size: 14px;
+    }
+    .ul-favs {
+        display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+    .centrado_imf_footer {
+        text-align: center!important;
+    }
+    .img_footer {
+        width: 60%;
+    }
+}
+
+@media (max-width: 575px) {
+    li a {
+        padding: 8px 10px;
+        margin: 4px 4px;
+    }
+    li a {
+        padding: 8px 2px;
+    }
+    .img_footer {
+        width: 70%;
+    }
+}
+
+@media (max-width: 520px) {
+    .ul-links {
+        display: block;
+    }
+    .ul-links li {
+        width: 100%;
+    }
+    .ul-favs {
+        display: block;
+    }
+    .ul-links li a {
+        font-size: 14px;
+    }
 }

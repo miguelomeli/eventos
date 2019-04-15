@@ -37,6 +37,32 @@
 
 .img_firma {
     width: 82%;
-    padding: 5rem 0 15rem;
+    padding: 8rem 0 12rem;
     opacity: 0.8;
+}
+
+@media (max-width: 1199px) {
+    .img_firma {
+        width: 80%;
+        padding: 8rem 0 10rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .img_firma {
+        width: 90%;
+        padding: 8rem 0 6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .img_firma {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .img_firma {
+        width: 100%;
+    }
 }

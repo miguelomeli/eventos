@@ -109,11 +109,20 @@ h2 {
     padding-bottom: 0.6rem;
 }
 
+@media (max-width: 768px) {
+    .margen-izq-esp {
+        margin-left: 33.333333%;
+    }
+}
+
 @media (max-width: 575px) {
     .img_icon {
         width: 50%;
     }
     h2 {
         font-size: 0.8rem;
+    }
+    .margen-izq-esp {
+        margin-left: 0%;
     }
 }
