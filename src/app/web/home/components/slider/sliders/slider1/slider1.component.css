@@ -31,6 +31,15 @@
 
 /* Finzaliza sección para cargar las fuentes que se utilisaran */
 
+.ocultar {
+    opacity: 0;
+}
+
+.slider1-img-1 {
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
 .slider-1 {
     background: rgba(0, 0, 0, 0) url(/src/assets/img/slider/slide_01_eventos.jpg) repeat scroll center center / cover!important;
 }

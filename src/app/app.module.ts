@@ -53,6 +53,7 @@ import { QuienessomosComponent } from './web/home/components/quienessomos/quiene
 import { PaquetesComponent } from './web/home/components/paquetes/paquetes.component';
 import { AreasComponent } from './web/home/components/areas/areas.component';
 import { ContactoComponent } from './web/home/components/contacto/contacto.component';
+import { GaleriaComponent } from './web/home/components/galeria/galeria.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -74,6 +75,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     PaquetesComponent,
     AreasComponent,
     ContactoComponent,
+    GaleriaComponent,
   ],
   imports: [
     BrowserModule,

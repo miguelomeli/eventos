@@ -79,6 +79,24 @@
 
 /* Finaliza seccion de codigo para la existencia de 5 columnas */
 
+.ocultar {
+    opacity: 0;
+}
+
+.paquet-div-1 {
+    animation-duration: 1s;
+}
+
+.paquet-div-2 {
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+}
+
+.paquet-div-3 {
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
 .bg_paquetes {
     background: rgba(0, 0, 0, 0) url(/src/assets/img/bg/background_paquetes.jpg) repeat scroll center center / cover!important;
 }

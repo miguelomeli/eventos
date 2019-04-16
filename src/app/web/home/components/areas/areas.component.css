@@ -79,6 +79,34 @@
 
 /* Finaliza seccion de codigo para la existencia de 5 columnas */
 
+.ocultar {
+    opacity: 0;
+}
+
+.areas-div-1 {
+    animation-duration: 1s;
+}
+
+.areas-div-2 {
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
+.areas-div-3 {
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+}
+
+.areas-div-4 {
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+}
+
+.areas-div-5 {
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+}
+
 .container-fluid {
     width: 90%;
 }
@@ -109,7 +137,13 @@ h2 {
     padding-bottom: 0.6rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
+    .margen-izq-esp {
+        margin-left: 33.333333%;
+    }
+}
+
+@media (max-width: 767px) {
     .margen-izq-esp {
         margin-left: 33.333333%;
     }

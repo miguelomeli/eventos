@@ -31,6 +31,44 @@
 
 /* Finzaliza sección para cargar las fuentes que se utilisaran */
 
+.ocultar {
+    opacity: 0;
+}
+
+.foot-img-1 {
+    animation-duration: 1s;
+}
+
+.foot-li-1 {
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
+.foot-li-2 {
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+
+.foot-li-3 {
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+}
+
+.foot-li-4 {
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+.foot-li-5 {
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+}
+
+.foot-li-6 {
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+}
+
 .bg_footer {
     background: rgba(0, 0, 0, 0) url(/src/assets/img/footer/background_footer.jpg) repeat scroll center center / cover!important;
 }

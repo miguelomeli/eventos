@@ -31,6 +31,34 @@
 
 /* Finzaliza sección para cargar las fuentes que se utilisaran */
 
+.ocultar {
+    opacity: 0;
+}
+
+.contac-div-1 {
+    animation-duration: 1s;
+}
+
+.contac-div-2 {
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
+.contac-div-3 {
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+}
+
+.contac-div-4 {
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+}
+
+.contac-div-5 {
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+}
+
 .bg_contacto {
     background: rgba(0, 0, 0, 0) url(/src/assets/img/contacto/background_contacto.jpg) repeat scroll center center / cover!important;
 }

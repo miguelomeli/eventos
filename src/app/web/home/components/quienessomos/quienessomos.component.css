@@ -1,3 +1,20 @@
+.ocultar {
+    opacity: 0;
+}
+
+.quisom1-img-1 {
+    animation-duration: 1s;
+}
+
+.quisom2-img-1 {
+    animation-duration: 1s;
+}
+
+.quisom2-div-1 {
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
 .img_muestra {
     width: 86%;
 }
