@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../../../../services/api.service';
 import * as $ from 'jquery';
+import * as emailjs from 'emailjs-com';
+
 declare var Waypoint: any;
 
 @Component({
@@ -53,10 +55,12 @@ export class ContactoComponent implements OnInit {
   }
   JsFormData(){
     $.ajax({
-      url: './funciones.php',
+      url: 'http://eventosindependencia.com/funciones.php',
       method: "POST",
       async: false,
+      contentType: "application/x-www-form-urlencoded",
       dataType: "json",
+      data: $("#form-data").serialize(),
       success: function (respuesta) {
         //Accion 1
         console.log(respuesta);
@@ -64,4 +68,13 @@ export class ContactoComponent implements OnInit {
     });
   }
 
+  /* test() {
+    emailjs.sendForm('<YOUR SERVICE ID>', '<YOUR TEMPLATE ID>', '#myForm', '<YOUR USER ID>')
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      }, (err) => {
+        console.log('FAILED...', err);
+      });
+  }
+ */
 }
