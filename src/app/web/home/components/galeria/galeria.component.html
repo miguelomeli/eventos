@@ -1,5 +1,16 @@
 <section id="galeria">
-    <div class="container">
-        <h1>Galeria</h1>
+    <div class="container mb-5 mt-5">
+        <div align="center"><h1>Galeria</h1></div> 
+        
     </div>
+    <div class="container mb-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div  *ngFor="let image of album; let i=index" class=" col-12 col-sm-6 col-md-3">
+                    <img class="foto p-2" [src]="image.thumb" alt="" (click)="open(i)">
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>

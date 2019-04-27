@@ -21,6 +21,7 @@ import {NgbModule, NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
 import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { ToastrModule } from 'ngx-toastr';
+import { LightboxModule } from 'ngx-lightbox';
 
 
 
@@ -94,7 +95,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         deps: [HttpClient]
       }
     }),
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    LightboxModule
   ],
   providers: [
     globalService,
