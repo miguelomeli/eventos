@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewEncapsulation  } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import {LoginService} from '../../../services/login.service';
 import * as $ from 'jquery';
 declare var Waypoint: any;
 
@@ -18,11 +17,8 @@ export class WebHeaderComponent implements OnInit {
 
   constructor(
     private translate: TranslateService,
-    private _loginService: LoginService,
   ) {
-    this.txtLang = this._loginService.getLang();
     translate.setDefaultLang(this.txtLang);
-    this.activeToken = this._loginService.checkAuth();
   }
 
   switchLanguage(language: string) {

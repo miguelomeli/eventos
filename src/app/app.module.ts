@@ -38,14 +38,7 @@ import { WebHomeComponent } from './web/home/home.component';
 
 
 /*Servicios*/
-import { globalService } from './services/globals.service';
-import { LoginService } from './services/login.service';
-import { ToastService } from './services/toast.service';
-import { AuthGuard } from './services/auth.guard';
-import { LoginGuard } from './services/login.guard';
 import { ApiService } from './services/api.service';
-import { AuthService } from './services/auth.service';
-import { TokenInterceptorService } from './services/token-interceptor.service';
 import { SliderComponent } from './web/home/components/slider/slider.component';
 import { Slider1Component } from './web/home/components/slider/sliders/slider1/slider1.component';
 import { Slider2Component } from './web/home/components/slider/sliders/slider2/slider2.component';
@@ -99,20 +92,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     LightboxModule
   ],
   providers: [
-    globalService,
-    LoginService,
-    ToastService,
-    AuthGuard,
-    LoginGuard,
     ApiService,
-    AuthService,
-    TokenInterceptorService,
     NgbActiveModal,
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: TokenInterceptorService,
-      multi: true
-    }
   ],
   bootstrap: [AppComponent]
 })

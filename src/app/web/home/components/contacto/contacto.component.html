@@ -3,7 +3,7 @@
         <h1 id="id_contacto">CONTACTO</h1>
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <form class="form" name="enq" method="post" action="mail.php">
+            <form class="form" name="form-data" id="form-data"  method="post" (ngSubmit)="JsFormData();">
                 <div class="form-group animated contac-div-1 ocultar">
                     <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre *" required="required">
                 </div>
@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="form-group animated contac-div-4 ocultar">
-                    <textarea rows="6" name="mensaje" id="description" class="form-control" placeholder="Mensaje" required="required"></textarea>
+                    <textarea rows="6" name="mensaje" id="mensaje" class="form-control" placeholder="Mensaje" required="required"></textarea>
                 </div>
 
                 <div class="form-group text-center animated contac-div-5 ocultar">

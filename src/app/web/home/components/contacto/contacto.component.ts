@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from '../../../../services/api.service';
 import * as $ from 'jquery';
 declare var Waypoint: any;
 
@@ -9,7 +10,7 @@ declare var Waypoint: any;
 })
 export class ContactoComponent implements OnInit {
 
-  constructor() { }
+  constructor( private http: ApiService ) { }
 
   ngOnInit() {
     var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
@@ -48,6 +49,18 @@ export class ContactoComponent implements OnInit {
         });
       },
       offset: 'bottom-in-view'
+    });
+  }
+  JsFormData(){
+    $.ajax({
+      url: './funciones.php',
+      method: "POST",
+      async: false,
+      dataType: "json",
+      success: function (respuesta) {
+        //Accion 1
+        console.log(respuesta);
+      }
     });
   }
 
