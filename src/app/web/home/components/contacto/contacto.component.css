@@ -60,7 +60,7 @@
 }
 
 .bg_contacto {
-    background: rgba(0, 0, 0, 0) url(/src/assets/img/contacto/background_contacto.jpg) repeat scroll center center / cover!important;
+    background: rgba(0, 0, 0, 0) url(/assets/img/contacto/background_contacto.jpg) repeat scroll center center / cover!important;
 }
 
 h1 {

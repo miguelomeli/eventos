@@ -98,7 +98,7 @@
 }
 
 .bg_paquetes {
-    background: rgba(0, 0, 0, 0) url(/src/assets/img/bg/background_paquetes.jpg) repeat scroll center center / cover!important;
+    background: rgba(0, 0, 0, 0) url(/assets/img/bg/background_paquetes.jpg) repeat scroll center center / cover!important;
 }
 
 .bg_blanco {
