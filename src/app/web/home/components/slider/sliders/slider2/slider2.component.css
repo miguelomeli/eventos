@@ -30,3 +30,48 @@
 
 
 /* Finzaliza sección para cargar las fuentes que se utilisaran */
+
+.ocultar {
+    opacity: 0;
+}
+
+.slider2-img-1 {
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
+.slider-2 {
+    background: rgba(0, 0, 0, 0) url(/assets/img/slider/slide_02_eventos.jpg) repeat scroll center center / cover!important;
+}
+
+.img_firma {
+    width: 82%;
+    padding: 8rem 0 12rem;
+    opacity: 0.8;
+}
+
+@media (max-width: 1199px) {
+    .img_firma {
+        width: 80%;
+        padding: 8rem 0 10rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .img_firma {
+        width: 90%;
+        padding: 8rem 0 6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .img_firma {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .img_firma {
+        width: 100%;
+    }
+}
