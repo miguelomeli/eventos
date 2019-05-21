@@ -13,7 +13,7 @@ export class WebFooterComponent implements OnInit {
   ngOnInit() {
     var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
     var waypoint = new Waypoint({
-      element: document.getElementById('footer'),
+      element: document.getElementById('footer_interno'),
       handler: function (direction) {
         $('.foot-img-1').addClass('fadeInLeft');
         $('.foot-img-1').removeClass('ocultar');

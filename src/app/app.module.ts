@@ -48,6 +48,9 @@ import { PaquetesComponent } from './web/home/components/paquetes/paquetes.compo
 import { AreasComponent } from './web/home/components/areas/areas.component';
 import { ContactoComponent } from './web/home/components/contacto/contacto.component';
 import { GaleriaComponent } from './web/home/components/galeria/galeria.component';
+import { MapaComponent } from './web/home/components/mapa/mapa.component';
+import { SetionmapComponent } from './web/home/components/mapa/componet/setionmap/setionmap.component';
+import { InfomapComponent } from './web/home/components/mapa/componet/infomap/infomap.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -70,6 +73,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     AreasComponent,
     ContactoComponent,
     GaleriaComponent,
+    MapaComponent,
+    SetionmapComponent,
+    InfomapComponent,
   ],
   imports: [
     BrowserModule,
