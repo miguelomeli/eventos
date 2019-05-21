@@ -66,7 +66,8 @@
 h1 {
     padding-bottom: 5rem;
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.8rem;
+    font-family: century-gothic;
     font-weight: 500;
     color: white;
 }
@@ -85,14 +86,13 @@ h1 {
     background: -ms-linear-gradient(left, rgba(60, 163, 219, 1) 0%, rgba(60, 98, 175, 1) 100%);
     background: linear-gradient(to right, rgba(60, 163, 219, 1) 0%, rgba(60, 98, 175, 1) 100%);
     color: white;
-    font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-transform: initial;
     border-radius: 10px;
     padding: 5px 40px;
     letter-spacing: 1px;
     border: solid 2px #1A3868;
-    font-family: century-gothic;
+    font-family: century-gothic-bold;
 }
 
 .btn_enviar:hover {
@@ -104,6 +104,10 @@ h1 {
     background: -ms-linear-gradient(left, rgba(60, 98, 175, 1) 0%, rgba(60, 163, 219, 1) 100%);
     background: linear-gradient(to right, rgba(60, 98, 175, 1) 0%, rgba(60, 163, 219, 1) 100%);
     border: solid 2px #0e56c2;
+}
+
+.form-control {
+    opacity: 0.8;
 }
 
 @media (max-width: 1199px) {

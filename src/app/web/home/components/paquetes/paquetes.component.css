@@ -118,6 +118,7 @@
 ul {
     display: grid;
     padding: 0px 20px;
+    font-family: century-gothic;
 }
 
 .titulo_paquete {
@@ -140,18 +141,22 @@ h1 {
     margin-bottom: .8rem;
     margin-top: .8rem;
     color: white;
+    font-family: century-gothic;
+    font-weight: 600;
 }
 
 h2 {
     font-size: 1.1rem;
     font-weight: 700;
+    font-family: century-gothic;
+    font-weight: 600;
 }
 
 h3 {
     font-size: 1rem;
     margin-bottom: .6rem;
     margin-top: .6rem;
-    font-weight: 700;
+    font-family: century-gothic-bold;
 }
 
 h4 {
@@ -167,6 +172,8 @@ h5 {
     text-align: center;
     font-weight: 500;
     color: #00ace0;
+    font-family: century-gothic;
+    font-size: 1.8rem;
 }
 
 .txt_color_1 {
