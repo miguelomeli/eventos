@@ -30,7 +30,7 @@
 
 
 /* Finzaliza sección para cargar las fuentes que se utilisaran */
-
+#galeria{background-color: #ECEDEF; padding-top: 15px;}
 h1 {
     font-family: century-gothic;
     font-size: 1.8rem;
@@ -39,5 +39,5 @@ h1 {
 .foto {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius:20px;
 }
