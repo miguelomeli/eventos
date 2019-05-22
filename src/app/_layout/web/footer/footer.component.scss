@@ -93,8 +93,7 @@ ul {
     padding: 0;
     margin-top: 10px;
     margin-bottom: 10px;
-    display: grid;
-    float: right;
+    display: flex;
 }
 
 li {
@@ -138,6 +137,10 @@ li a {
     padding-top: 1px;
 }
 
+.container-fluid {
+    width: 86%;
+}
+
 @media (max-width: 1199px) {
     .ul-links {
         margin-top: 1.8%;
@@ -147,7 +150,10 @@ li a {
     }
     .ul-favs li a,
     .ul-links li a {
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .container-fluid {
+        width: 96%;
     }
 }
 
@@ -190,9 +196,6 @@ li a {
     .img_footer {
         width: 70%;
     }
-}
-
-@media (max-width: 520px) {
     .ul-links {
         display: block;
     }
@@ -203,6 +206,8 @@ li a {
         display: block;
     }
     .ul-links li a {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
+
+@media (max-width: 520px) {}

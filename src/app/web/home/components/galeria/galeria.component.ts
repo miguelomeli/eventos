@@ -10,9 +10,10 @@ import { Lightbox } from 'ngx-lightbox';
 
 export class GaleriaComponent implements OnInit {
   imgs = [
-    'assets/img/galeria/img/01.jpg', 'assets/img/galeria/img/02.jpg', 'assets/img/galeria/img/03.jpg', 'assets/img/galeria/img/04.jpg',
-    'assets/img/galeria/img/05.jpg', 'assets/img/galeria/img/06.jpg', 'assets/img/galeria/img/07.jpg', 'assets/img/galeria/img/08.jpg',
-    'assets/img/galeria/img/09.jpg'
+    'assets/img/galeria/img/01.jpg', 'assets/img/galeria/img/02.jpg',
+    'assets/img/galeria/img/03.jpg', 'assets/img/galeria/img/04.jpg',
+    'assets/img/galeria/img/05.jpg', 'assets/img/galeria/img/06.jpg',
+    'assets/img/galeria/img/08.jpg', 'assets/img/galeria/img/09.jpg'
   ];
   thumbs = [
     'assets/img/galeria/thumb/T01.jpg', 'assets/img/galeria/thumb/T02.jpg', 'assets/img/galeria/thumb/T03.jpg',
@@ -22,7 +23,7 @@ export class GaleriaComponent implements OnInit {
   album: Array<{ src: string, caption: string, thumb: string }> = [];
 
   constructor(private lighbox: Lightbox) {
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < 8; i++) {
       const src = this.imgs[i];
       const caption = 'Eventos Independencia';
       const thumb = this.thumbs[i];
